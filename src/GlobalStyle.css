@@ -1,0 +1,38 @@
+main{display: flex; flex-wrap: nowrap; height: 100vh; height: -webkit-fill-available; max-height: 100vh; overflow-x: auto; overflow-y: hidden }
+content{top:1%; position:relative ; height:88vh}
+
+input{ text-align: center; border: 0; padding: 2%; border-bottom:#a6dcf3 1px solid !important;margin: 2%; }
+input::placeholder { color: rgb(118, 167, 207) }
+
+textarea::placeholder{text-align: center;}
+
+select{text-transform:uppercase;text-align: center; width: 75%;}
+li{text-transform: uppercase}
+button{color: aquamarine;}
+
+table{ display: table; font-size:80%; background:#FFFFFF; font-family: "Segoe UI"; text-transform: uppercase;}
+th{text-align:center;top:0;background:#FFFFFF;}
+th input{text-transform: uppercase}
+
+.a{color: #2874A6 !important}
+.nav-link{text-transform: uppercase;}
+.click{color:#58bfeb; cursor: pointer; text-transform: uppercase}
+.unClick{color:#416575; cursor: pointer; text-transform: uppercase}
+.swal-wide{width: 50%}
+
+/* Tooltip container */
+.myToolTip { position: relative; display: inline-block; border-bottom: 1px dotted black }
+/* Tooltip text */
+.myToolTip .tooltiptext { 
+    visibility: hidden; width: 120px; background-color: #555; color: #fff; text-align: center; padding: 5px 0;border-radius: 6px;
+    /* Position the tooltip text */
+    position: absolute; z-index: 1; bottom: 20%; left: 100%;
+      /* Fade in tooltip */
+    opacity: 0; transition: opacity 0.3s;
+  }
+/* Show the tooltip text when you mouse over the tooltip container */
+.myToolTip:hover .tooltiptext { visibility: visible; opacity: 1 }
+.b-example-divider {
+    flex-shrink: 0; width: 0.5rem; height: 100vh; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0; box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
